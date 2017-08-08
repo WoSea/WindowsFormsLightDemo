@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TcPlcObject Version="1.1.0.1" ProductVersion="3.1.4022.3">
+  <GVL Name="GVLLighting" Id="{af70717c-23e5-4d57-aefa-8314394d4046}">
+    <Declaration><![CDATA[{attribute 'qualified_only'}
+VAR_GLOBAL
+	LightingStatus AT %Q*:BOOL ;
+	StartLight AT %I*:BOOL ;
+	StopLight AT %I*:BOOL ;
+END_VAR]]></Declaration>
+  </GVL>
+</TcPlcObject>
